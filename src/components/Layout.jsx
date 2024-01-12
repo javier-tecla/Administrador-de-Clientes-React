@@ -1,7 +1,7 @@
 import { Outlet, Link, useLocation } from 'react-router-dom'
 
 function Layout() {
-  const location = useLocation()
+  const location = useLocation();
 
   console.log(location)
   
